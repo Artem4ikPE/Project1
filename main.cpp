@@ -12,6 +12,9 @@ using namespace std;
 #include "Source3.h"
 #include "Source4.h"
 #include "Source5.h"
+#include "Source6.h"
+#include "Source7.h"
+#include "Source8.h"
 #include "conio.h"
 
 
@@ -39,7 +42,7 @@ void main()
 		case 1:
 			di[i] = new MallardDuck(); di[i] -> SetQuackBehavior(qb_quackquack); di[i] -> SetFlyBehavior(fb_flywithwings);
 			break; case2:
-			di[i] = new RedhedDuck(); di[i] -> SetQuackBehavior(qb_quackquack); di[i] -> SetFlyBehavior(fb_flywithwings);
+			di[i] = new RedheadDuck(); di[i] -> SetQuackBehavior(qb_quackquack); di[i] -> SetFlyBehavior(fb_flywithwings);
 			break;
 		case 3:
 			di[i] = new RubberDuck(); di[i] -> SetQuackBehavior(qb_squeak); di[i] -> SetFlyBehavior(fb_flynoway);

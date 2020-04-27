@@ -153,6 +153,8 @@
     <ClInclude Include="Source4.h" />
     <ClInclude Include="Source5.h" />
     <ClInclude Include="Source6.h" />
+    <ClInclude Include="Source7.h" />
+    <ClInclude Include="Source8.h" />
     <ClInclude Include="SqueakSqueak.h" />
   </ItemGroup>
   <ItemGroup>
